@@ -1,5 +1,7 @@
 class HeroPower < ApplicationRecord
-    belongs_to :heroes
-    belongs_to :powers 
+    belongs_to :hero
+    belongs_to :power 
+
+    validates :strength, inclusion: { in: [ 'Strong', 'Weak', 'Average' ]}
 
 end
