@@ -20,8 +20,9 @@ This is a RESTful API for managing superheroes built with Ruby on Rails. It feat
 To get started, clone the repository and navigate to the project directory:
 
     git clone https://github.com/Musyoki-Wambua/SuperHeroes-API
-
-cd SuperHeroes-API
+    
+            
+    cd SuperHeroes-API
 
 Then, install the required dependencies using Bundler:
 
